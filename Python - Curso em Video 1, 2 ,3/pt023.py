@@ -1,0 +1,5 @@
+print("########## DESAFIO 27 ##########\n")
+nomec = str(input('Digite seu nome completo: ')).strip()
+sep = nomec.split()
+print('Primeiro: {}'.format(sep[0]))
+print('Ultimo: {}'.format(sep[len(sep)-1]))
