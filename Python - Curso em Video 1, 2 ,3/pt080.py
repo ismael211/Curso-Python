@@ -3,7 +3,7 @@ lista = []
 while True:
     n = int(input('Digite um valor: '))
     if n in lista:
-        print('Valor duplicado! Não adcionado.')
+        print('Valor duplicado! Não adicionado.')
     else:
         lista.append(n)
     esc = 'a'
