@@ -64,7 +64,7 @@ def jogar():
             marca_chute_correto(chute, letras_acertadas, palavra_secreta)
             letras_faltando = str(letras_acertadas.count('_'))
             if (letras_faltando == "0"):
-                print("PARABÉNS!! Você encontrou todas as letras formando a palavra '{}'".format(palavra_secreta.upper()))
+                print(f"PARABÉNS!! Você encontrou todas as letras formando a palavra '{palavra_secreta.upper()}'")
         else:
             erros += 1
             print(letras_acertadas)

@@ -1,5 +1,3 @@
-# from random import choice
-
 def desenha_forca(erros):
 
     if(erros == 1):
@@ -21,15 +19,14 @@ def desenha_forca(erros):
         print('\nVocê perdeu a perna esquerda!\n')
 
 
-word = str(input('Digita a palavra: ')).lower()
+palavra = str(input('Digita a palavra: ')).lower()
 
-palavra = word
 
 print("JOGO DA FORCA 1.0\n")
 print("Bem vindo ao JOGO DA FORCA. Boa sorte!\n")
 
 chances = 6
-alfabeto = list("abdcefghijklmnopqrstuvwxyz")
+alfabeto = list("abdcçefghijklmnopqrstuvwxyz")
 tentativas = []
 erros = 0
 
@@ -77,5 +74,5 @@ while True:
         print("Parabéns, você acertou!")
         break
         
-
+print(f'A palavra era {palavra.upper()}')
 print('fim de jogo')
